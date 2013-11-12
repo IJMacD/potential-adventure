@@ -51,6 +51,12 @@ main h3 {
   font-weight: bold;
   text-shadow: 2px 2px 4px #999;
 }
+main h1 {
+  font-size: 64px;
+}
+main h2 {
+  font-size: 50px;
+}
 footer {
   color: #999;
   height: 60px;
@@ -61,10 +67,10 @@ footer a {
 
 .note {
   margin: 30px 0;
-  margin-left: -30px;
+  margin-right: -30px;
   padding: 20px 20px 24px;
   padding-left: 50px;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px 0 0 5px;
   position: relative;
   box-shadow: 0 1px 5px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255,255,255,.2), inset 0 -1px 0 rgba(0,0,0,.3);
   background: #7d7d7d; /* Old browsers */
@@ -93,8 +99,8 @@ footer a {
   content: "";
   position: absolute;
   top: -10px;
-  left: 0px;
-  border-color: transparent #222 #222 transparent;
+  right: 0px;
+  border-color: transparent transparent #222 #222;
   border-style: solid;
   border-width: 5px;
   width: 0;
@@ -178,19 +184,19 @@ footer a {
 }
 
 .note-info:before {
-  border-color: transparent #00617f #00617f transparent;
+  border-color: transparent transparent #00617f #00617f;
 }
 
 .note-key:before {
-  border-color: transparent #918103 #918103 transparent;
+  border-color: transparent transparent #918103 #918103;
 }
 
 .note-best:before {
-  border-color: transparent #0a7602 #0a7602 transparent;
+  border-color: transparent transparent #0a7602 #0a7602;
 }
 
 .note-warn:before {
-  border-color: transparent #6f0d0d #6f0d0d transparent;
+  border-color: transparent transparent #6f0d0d #6f0d0d;
 }
 
 .note:after {
@@ -206,46 +212,20 @@ footer a {
 
 .note-pro:after {
   content: "★";
-  color: #fc0;
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
 
 .note-info:after {
   content: "ⓘ";
   color: #fff;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
 
 .note-key:after {
-  content: "!";
-  color: #fc0;
-  position: absolute;
-  top: 14px;
-  left: 18px;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+  content: "★";
+  color: #fff;
 }
 
 .note-best:after {
   content: "✓";
-  color: #fc0;
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
 
 .note-warn:after {

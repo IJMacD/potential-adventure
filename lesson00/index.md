@@ -1,5 +1,7 @@
 ---
 layout: lesson
+title: Introduction
+next_href: /lesson01
 ---
 Lesson 0: Introduction
 ======================
@@ -33,6 +35,7 @@ Software that will greatly help:
    very difficult for yourself. You need a text editor with decent syntax
    highlighting and features designed for developing like auto-indentation and
    commment shortcuts. I suggest one of the following:
+
    - [Sublime Text][] - Simple, clutter free interface with loads of handy
      features.
    - [Notepad++][notepadpp] - Free and also very powerful.
@@ -56,7 +59,7 @@ how you should interpret them.
 
 <div class="note note-key">
     <h5>Key Point</h5>
-    <p>What written in notes this this is usually a key point. If you don't
+    <p>What's written in this banner is usually a key point. If you don't
         remember anything else from this lesson, remember this!</p>
 </div>
 

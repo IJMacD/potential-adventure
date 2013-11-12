@@ -34,8 +34,8 @@
       <section class="container">
         {{content}}
 
-        {% if next_link %}
-          <a class="btn btn-primary pull-right" href="{{next_href}}">{{next_link}}</a>
+        {% if next_href %}
+          <a class="btn btn-primary pull-right" href="{{site.base_url}}{{next_href}}">Next &raquo;</a>
         {% endif %}
       </section>
     </main>
