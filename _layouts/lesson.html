@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, user-scaleable=no"
+    <meta name="description" content="Potential-adventure : Designer to Developer" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/pa.css">
+
+    <title>potential-adventure - {{title}}</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+          <a id="forkme_banner" href="https://github.com/ijmacd/potential-adventure">
+            <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+          </a>
+
+          <a href="{{site.base_url}}">
+            <h1 id="project_title">potential-adventure</h1>
+            <h2 id="project_tagline">From Designer to Developer</h2>
+          </a>
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <section class="container">
+        {{content}}
+
+        {% if next_link %}
+          <a class="btn btn-primary pull-right" href="{{next_href}}">{{next_link}}</a>
+        {% endif %}
+      </section>
+    </main>
+
+    <!-- FOOTER  -->
+    <footer>
+      <div class="container">
+        <p class="copyright">Potential-adventure maintained by <a href="https://github.com/IJMacD">IJMacD</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </div>
+    </footer>
+
+    
+
+  </body>
+</html>
