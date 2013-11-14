@@ -25,12 +25,12 @@ Take a look at this:
 
 This is a complete html page. That's it, all that's needed to show a page in a browser. Not much is it?
 
-The first thing you will notice is what are called **tags**. These look like: `<html>`. They
-all start with a `<` and end with a `>`. The first word after `<` is called the
-**name** of the tag.
+The first thing you will notice is what are called **tags**. These look something like this: `<html>`. Tags
+all start with a `<` and end with a `>`, these are called **angle brackets**. The word immediately after the
+opening bracket `<` is called the **name** of the tag.
 
-There are two types of tag: **opening** and **closing**. Opening
-tags look like this `<html>` and closing tags look like this `</html>`, notice the `/`.
+There are two types of tag: **opening** and **closing** tags. Opening tags look like this `<html>` and
+closing tags look like this `</html>`, notice the `/`.
 Everything between an opening and matching closing tag is said to be inside the tag.
 
 So in this case the HTML page is everything between the `<html>` and `</html>` tags.
