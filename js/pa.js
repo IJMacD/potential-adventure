@@ -23,14 +23,19 @@ $(function(){
 				};
 
 				item.preview = $('<iframe>');
+				updater();
+
 				$('<div>')
 					.addClass("iframe-wrapper")
 					.append(item.preview)
 					.insertAfter( $item.parent() );
 
-				$item.on("keyup", updater);
-
-				$item.attr("contenteditable", true);
+				$item
+					.on("keyup", updater)
+					.on("blur", function(){
+						Prism.highlightElement(item);
+					})
+					.attr("contenteditable", true);
 			}
 		}
 	});
