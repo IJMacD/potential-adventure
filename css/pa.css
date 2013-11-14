@@ -40,7 +40,7 @@ main {
   /* Negative indent footer by its height */
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
-  padding: 0 0 60px;
+  padding: 0 0 80px;
 }
 main {
   font-size: 21px;
