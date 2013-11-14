@@ -46,3 +46,24 @@ This includes information *about* the page. Nothing between the `<head>` tags wi
 
 Here we're only telling the browser one thing &ndash; that the `<title>` of the page is
 *Potential Adventure*. The title is what's shown on the browser tab.
+
+That was pretty simple wasn't it? We'll see lots more things we can put in the `<head>` shortly. Now on to the
+`<body>`:
+
+	<body>
+		<p>Welcome to Potential Adventure!</p>
+	</body>
+
+Only things which are between the `<body>` tags will be shown on the page.
+
+Here we just have one `<p>` tag. *p* stands for paragraph. They are used to show a paragraph of text.
+
+Every paragraph of text on this page is a new `<p>` tag. You can see the welcome message is the only thing shown
+in the handy preview below the code sample.
+
+<div class="note note-pro">
+	<h5>Live Preview</h5>
+	<p>Now you've looked at some code go back up to the preview box at the top of the page.
+	You can change the text in the code box and the preview will update as you are typing.
+	Give it a try now!</p>
+</div>
