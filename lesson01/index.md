@@ -8,7 +8,6 @@ Lesson 1: HTML
 ==============
 
 Take a look at this:
-<div class="language-markup">
 
 	<!DOCTYPE html>
 	<html>
@@ -20,8 +19,6 @@ Take a look at this:
 			<p>Welcome to Potential Adventure!</p>
 		</body>
 	</html>
-
-</div>
 
 This is a complete html page. That's it, all that's needed to show a page in a browser. Not much is it?
 
@@ -37,13 +34,10 @@ So in this case the HTML page is everything between the `<html>` and `</html>` t
 Which is just what we expect.
 
 Now let's look at the main parts of the page. First we have the `<head>` section:
-<div class="language-markup">
 
 	<head>
 		<title>Potential Adventure</title>
 	</head>
-
-</div>
 
 This includes information *about* the page.
 
