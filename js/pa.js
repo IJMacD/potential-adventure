@@ -10,7 +10,7 @@ $(function(){
 		}
 
 		if(prevSibling.nodeType == 8){
-			lang = prevSibling.textContent.match(regex)[0];
+			lang = prevSibling.textContent.match(regex)[1];
 			$item.addClass("language-"+lang);
 		}
 	});
