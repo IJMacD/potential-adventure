@@ -254,15 +254,35 @@ iframe {
   position: relative;
 }
 
-.iframe-wrapper::after {
+pre.language-markup,
+pre.language-css,
+pre.language-javascipt {
+  position: relative;
+}
+
+.iframe-wrapper::after,
+pre.language-markup::after,
+pre.language-css::after,
+pre.language-javascipt::after {
   background: #f5f5f5;
   border: 1px solid #999;
   border-bottom-left-radius: 8px;
-  content: "Preview";
   font-family: "Consolas", monospace;
   font-size: 0.8em;
   padding: 3px 10px;
   position: absolute;
   right: -1px;
   top: -1px;
+}
+.iframe-wrapper::after {
+  content: "Preview";
+}
+pre.language-markup::after {
+  content: "HTML";
+}
+pre.language-css::after {
+  content: "CSS";
+}
+pre.language-javascipt::after {
+  content: "Javascript";
 }
