@@ -34,7 +34,7 @@
 
     <!-- MAIN CONTENT -->
     <main>
-      <section class="container">
+      <section class="container {{ page.code_lang }}">
         {{content}}
 
         {% if page.prev_href %}
@@ -55,8 +55,9 @@
       </div>
     </footer>
 
-  <script src="{{ site.base_url }}/js/prism.js"></script>
+  <script src="{{ site.base_url }}/js/prism.js" data-manual></script>
   <script src="{{ site.base_url }}/js/jquery-2.0.3.min.js"></script>
+  <script src="{{ site.base_url }}/js/pa.js"></script>
     
   </body>
 </html>
