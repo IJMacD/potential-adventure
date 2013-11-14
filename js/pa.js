@@ -19,7 +19,7 @@ $(function(){
 			if(match[2]){
 
 				updater = function(){
-					item.preview.attr("src", "data:text/html," + encodeURIComponent( $item.text() ) );
+					item.preview.attr("src", "data:text/html;charset=utf-8," + encodeURIComponent( $item.text() ) );
 				};
 
 				item.preview = $('<iframe>');
