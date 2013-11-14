@@ -10,7 +10,7 @@ Lesson 1: HTML
 
 Take a look at this:
 
-<!-- language markup -->
+<!-- language markup preview-->
 
 	<!DOCTYPE html>
 	<html>

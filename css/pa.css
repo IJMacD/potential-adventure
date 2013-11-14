@@ -249,7 +249,7 @@ iframe {
   position: relative;
 }
 .iframe-wrapper::after {
-  background: #5f5f5f;
+  background: #f5f5f5;
   border: 1px solid #999;
   border-bottom-left-radius: 8px;
   content: "Preview";
@@ -257,6 +257,6 @@ iframe {
   font-size: 0.8em;
   padding: 3px 10px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -1px;
+  top: -1px;
 }
