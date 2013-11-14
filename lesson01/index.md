@@ -9,6 +9,8 @@ Lesson 1: HTML
 
 Take a look at this:
 
+<!-- language markup -->
+
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -39,7 +41,7 @@ Now let's look at the main parts of the page. First we have the `<head>` section
 		<title>Potential Adventure</title>
 	</head>
 
-This includes information *about* the page.
+This includes information *about* the page. Nothing between the `<head>` tags will be displayed on the page.
 
 Here we're only telling the browser one thing &ndash; that the `<title>` of the page is
 *Potential Adventure*. The title is what's shown on the browser tab.
