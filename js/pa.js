@@ -4,7 +4,8 @@ $(function(){
 		var $item = $(item),
 			prevSibling = $item.parent()[0].previousSibling,
 			match,
-			lang;
+			lang,
+			updater;
 
 		if(prevSibling.nodeType == 3){
 			prevSibling = prevSibling.previousSibling;
@@ -16,13 +17,20 @@ $(function(){
 			$item.addClass("language-"+lang);
 
 			if(match[2]){
+
+				updater = function(){
+					item.preview.attr("src", "data:text/html," + encodeURIComponent( $item.text() ) );
+				};
+
+				item.preview = $('<iframe>');
 				$('<div>')
-				.addClass("iframe-wrapper")
-				.append(
-					$('<iframe>')
-						.attr('src',"data:text/html," + encodeURIComponent( $item.text() ) )
-				)
-				.insertAfter( $item.parent() );
+					.addClass("iframe-wrapper")
+					.append(item.preview)
+					.insertAfter( $item.parent() );
+
+				$item.on("keyup", updater);
+
+				$item.attr("contenteditable", true);
 			}
 		}
 	});
