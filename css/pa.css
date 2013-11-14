@@ -238,3 +238,25 @@ footer a {
   font-weight: bold;
   text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
+
+iframe {
+  border: 0;
+  width: 100%;
+}
+.iframe-wrapper {
+  border: 1px solid #999;
+  border-radius: 4px;
+  position: relative;
+}
+.iframe-wrapper::after {
+  background: #5f5f5f;
+  border: 1px solid #999;
+  border-bottom-left-radius: 8px;
+  content: "Preview";
+  font-family: "Consolas", monospace;
+  font-size: 0.8em;
+  padding: 3px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

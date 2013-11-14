@@ -15,5 +15,16 @@ $(function(){
 		}
 	});
 
+	$('pre code').each(function(i,item){
+		var $item = $(item);
+		$('<iframe>')
+			.attr('src',"data:text/html," + encodeURIComponent( $item.text() ) )
+			.appendTo(
+				$('<div>')
+				.addClass("iframe-wrapper")
+				.insertAfter( $item.parent() )
+			);
+	});
+
 	Prism.highlightAll();
 });
