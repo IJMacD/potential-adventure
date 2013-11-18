@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #e4e4e4 url(../img/bg.png);
+}
+header h1,
+header h2 {
+  color: #b3b3b3;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+.jumbo {
+  position: absolute;
+  width: 100%;
+}
+.jumbo h1 {
+   font-size: 70px;
+}
+.jumbo h2 {
+   font-size: 30px;
+}
+#forkme_banner {
+  border: 0;
+  position: absolute;
+  right: 0;
+  top: 0;  
+}
+#welcome {
+  font-size: 25px;
+}
+/* Wrapper for page content to push down footer */
+main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 160px 0 80px;
+}
+main {
+  font-size: 21px;
+}
+main h1,
+main h2,
+main h3 {
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #333;
+}
+main h1 {
+  font-size: 64px;
+  color: #86ac3a;
+}
+main h2 {
+  font-size: 50px;
+}
+footer {
+  color: #999;
+  height: 60px;
+}
+footer a {
+  color: #99f;
+}
