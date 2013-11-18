@@ -261,6 +261,8 @@ code {
 
 iframe {
   border: 0;
+  height: 100%;
+  resize: none;
   width: 100%;
 }
 
@@ -268,7 +270,10 @@ iframe {
   background: #f5f2f0;
   border: 1px solid #cccccc;
   border-radius: 4px;
+  padding-bottom: 12px;
   position: relative;
+  resize: both;
+  overflow: hidden;
 }
 
 pre.language-markup,
@@ -277,10 +282,10 @@ pre.language-javascipt {
   position: relative;
 }
 
-.iframe-wrapper::after,
-pre.language-markup::after,
-pre.language-css::after,
-pre.language-javascipt::after {
+.iframe-wrapper::before,
+pre.language-markup::before,
+pre.language-css::before,
+pre.language-javascipt::before {
   background: #f5f5f5;
   border: 1px solid #ccc;
   border-bottom-left-radius: 8px;
@@ -291,21 +296,21 @@ pre.language-javascipt::after {
   right: -1px;
   top: -1px;
 }
-pre.language-markup::after,
-pre.language-css::after,
-pre.language-javascipt::after {
+pre.language-markup::before,
+pre.language-css::before,
+pre.language-javascipt::before {
   border-right: 0;
   right: 0;
 }
-.iframe-wrapper::after {
+.iframe-wrapper::before {
   content: "Preview";
 }
-pre.language-markup::after {
+pre.language-markup::before {
   content: "HTML";
 }
-pre.language-css::after {
+pre.language-css::before {
   content: "CSS";
 }
-pre.language-javascipt::after {
+pre.language-javascipt::before {
   content: "Javascript";
 }
