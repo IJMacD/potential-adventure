@@ -5,8 +5,8 @@ prev_href: /lesson00
 next_href: /lesson02
 code_lang: language-markup
 ---
-Lesson 1: HTML
-==============
+First Page
+----------
 
 Take a look at this:
 
@@ -25,6 +25,9 @@ Take a look at this:
 
 This is a complete html page. That's it, all that's needed to show a page in a browser. Not much is it?
 
+Tags
+----
+
 The first thing you will notice is what are called **tags**. These look something like this: `<html>`. Tags
 all start with a `<` and end with a `>`, these are called **angle brackets**. The word immediately after the
 opening bracket `<` is called the **name** of the tag.
@@ -36,6 +39,9 @@ Everything between an opening and matching closing tag is said to be inside the 
 So in this case the HTML page is everything between the `<html>` and `</html>` tags.
 Which is just what we expect.
 
+Head
+----
+
 Now let's look at the main parts of the page. First we have the `<head>` section:
 
 	<head>
@@ -46,6 +52,9 @@ This includes information *about* the page. Nothing between the `<head>` tags wi
 
 Here we're only telling the browser one thing &ndash; that the `<title>` of the page is
 *Potential Adventure*. The title is what's shown on the browser tab.
+
+Body
+----
 
 That was pretty simple wasn't it? We'll see lots more things we can put in the `<head>` shortly. Now on to the
 `<body>`:
