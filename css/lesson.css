@@ -180,8 +180,7 @@ footer a {
   background: -ms-linear-gradient(top,  #d4bc04 0%,#b2a300 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #d4bc04 0%,#b2a300 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4bc04', endColorstr='#b2a300',GradientType=0 ); /* IE6-9 */
-
-
+  color: #333;
 }
 
 .note-best {
