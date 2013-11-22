@@ -10,7 +10,10 @@ First Page
 
 Take a look at this:
 
-<!-- language markup preview-->
+<!--
+language: markup
+preview
+-->
 
 	<!DOCTYPE html>
 	<html>
