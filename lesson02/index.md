@@ -23,28 +23,30 @@ the page with HTML tags and you shouldn't try to give meaning to the page solely
 
 <div class="note note-key">
   <h2>CSS for Style</h2>
-  <p>If you look at other guides or old code on the internet you may find tags like `<font>`, `<b>` and `<i>`.
+  <p>If you look at other guides or old code on the internet you may find tags like <code>&lt;font&gt;</code>, <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code>.
   You should not use these. They were old tags that used to be used to style pages using HTML. HTML should be
-  used to give structure to the page not style. On the other hand CSS should *not* be used to give structure.
+  used to give structure to the page not style. On the other hand CSS should <em>not</em> be used to give structure.
   Do not try to rely on class names to define bits of content. For example: don't just create a div with a class
-```
-<div class="header"></div>
-```
+<pre><code>
+&lt;div class="header"&gt;&lt;/div&gt;
+</code></pre>
   when a tag already exists for this purpose:
-```
-  <header></header>
-```</p>
+<pre><code>
+  &lt;header&lt;&gt;/header&gt;
+</code></pre></p>
 </div>
 
 <!--
 language: markup
 -->
+
     <p>Welcome to Potential Adventure</p>
     
 <!--
 language: css
 preview: css(markup01)
 -->
+
     p {
       color: red;
     }
